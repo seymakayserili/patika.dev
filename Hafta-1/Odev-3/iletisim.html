@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <title>ABC Ajans | İletişim</title>
+    <style>
+      body {
+        font-family: "Roboto";
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 3px;
+        line-height: 1.6;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #f1f1f1;
+      }
+
+      nav ul li {
+        float: left;
+      }
+
+      nav ul li a {
+        display: block;
+        color: #000;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        background-color: #555555;
+      }
+      nav li a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+      .container {
+        margin: 25px;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>ABC Ajans</h1>
+        <p>İşinizi Büyütmek İçin Buradayız</p>
+        <nav>
+          <ul>
+            <li><a  href="./index.html">Anasayfa</a></li>
+            <li><a  href="./hakkinda.html">Hakkında</a></li>
+            <li><a  href="./servisler.html">Hizmetlerimiz</a></li>
+            <li><a class="active" href="./iletisim.html">İletişim</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+            <h2>Bize Ulaşın</h2>
+            <p>ABC Ajans’ın sunduğu hizmetler hakkında daha fazla bilgi almak ve dijital dünyada fark yaratmak için hemen bizimle iletişime geçin.</p>
+            <ul>
+                <li>Adres : Yenimahalle / Ankara</li>
+                <li>Eposta : <a href="mailto:info@abcajans.com">info@abcajans.com</a></li>
+                <li>Telefon : <a href="tel:903125555555">0312 555 55 55</a></li>
+            </ul>
+          </section>
+          <form>
+  <label for="name">Adınız:</label><br>
+  <input type="text" id="name" name="name"><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  
+  <label for="message">Mesajınız:</label><br>
+  <textarea id="message"  rows="4" cols="50" name="message"></textarea><br>
+  
+  <input type="submit" value="Gönder">
+</form>
+      </main>
+      <footer>
+        <p style="text-align: center">
+          <small>© ABC Ajans 2025. Her Hakkı Saklıdır. </small>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

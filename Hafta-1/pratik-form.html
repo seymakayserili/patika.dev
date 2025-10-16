@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratik Form</title>
+    <form>
+      <fieldset>
+        <div>
+          <label for="fname">Ad :</label>
+          <input type="text" id="fname" name="fname" required />
+        </div><br>
+        <div>
+          <label for="lname">Soyad :</label>
+          <input type="text" id="lname" name="lname" required />
+        </div><br>
+        <div>
+          <label for="email">E-posta :</label>
+          <input type="email" id="email" name="email" required />
+        </div><br>
+        <div>
+          <label for="pwd">Şifre :</label>
+          <input type="password" id="pwd" name="pwd" minlength="8" required />
+        </div><br>
+        <div>
+          <label for="gender">Cinsiyet : </label>
+          <input type="radio" name="gender" value="male" /> Erkek
+          <input type="radio" name="gender" value="female" /> Kadın
+        </div><br>
+        <div>
+          <label>Favori Meyve : </label>
+          <select name="fruit" id="fruit">
+            <option value="elma">Elma</option>
+            <option value="muz">Muz</option>
+            <option value="cilek">Çilek</option>
+          </select>
+        </div><br>
+        <div>
+          <label for="message">Mesajınız : </label>
+          <textarea id="message" name="message" rows="3" cols="50"></textarea>
+        </div><br>
+        <div>
+          <input type="submit" value="Gönder" />
+        </div>
+      </fieldset>
+    </form>
+  </head>
+  <body></body>
+</html>
