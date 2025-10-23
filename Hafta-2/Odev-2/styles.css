@@ -1,0 +1,165 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f4ed;
+  color: #3e2723;
+  line-height: 1.6;
+}
+
+
+.header {
+  background-color: #4e342e;
+  color: #fbe9e7;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.header h1 {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: #ffccbc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede0d4;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero blockquote {
+  font-family: "Merriweather", serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin: 20px 0 10px;
+  color: #5d4037;
+}
+
+.hero span {
+  display: block;
+  font-weight: bold;
+  color: #6d4c41;
+  margin-top: 5px;
+}
+
+
+.bio {
+  background-color: #f5ebe0;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.bio h2 {
+  font-family: "Merriweather", serif;
+  color: #4e342e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bio p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+
+.works {
+  background-color: #d7ccc8;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.works h2 {
+  font-family: "Merriweather", serif;
+  color: #3e2723;
+  margin-bottom: 30px;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.book-card {
+  background-color: #efebe9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  transition: transform 0.3s;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  background-color: #f0e4d7;
+}
+
+
+.footer {
+  background-color: #3e2723;
+  color: #fbe9e7;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.footer i {
+  color: #ffab91;
+}
+
+/* responsive gorunum */
+@media (max-width: 768px) {
+  .hero img {
+    max-width: 80%;
+  }
+
+  .bio,
+  .works {
+    padding: 30px 15px;
+  }
+
+  .book-grid {
+    grid-template-columns: 1fr;
+  }
+}

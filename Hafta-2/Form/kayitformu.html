@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Kayıt Formu</h1>
+      <p id="description">
+        Lütfen aşağıdaki formu doldurarak kayıt işlemini tamamlayınız.
+      </p>
+
+      <form id="survey-form">
+        <label id="name-label" for="name">İsim:</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Adınızı giriniz"
+          required
+        />
+
+        <label id="email-label" for="email">E-posta:</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="ornek@mail.com"
+          required
+        />
+
+        <label id="number-label" for="number">Yaşınız:</label>
+        <input
+          id="number"
+          type="number"
+          name="age"
+          placeholder="18"
+          min="10"
+          max="100"
+          required
+        />
+
+        <label for="dropdown">Cinsiyet:</label>
+        <select id="dropdown" name="gender" required>
+          <option value="">Seçiniz</option>
+          <option value="female">Kadın</option>
+          <option value="male">Erkek</option>
+          <option value="other">Diğer</option>
+        </select>
+
+        <fieldset>
+          <legend>Katılmak istediğiniz program:</legend>
+          <label
+            ><input type="radio" name="program" value="frontend" required />
+            Front-End</label
+          >
+          <label
+            ><input type="radio" name="program" value="backend" />
+            Back-End</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>İlgi Alanlarınız:</legend>
+          <label><input type="checkbox" value="design" /> Tasarım</label>
+          <label><input type="checkbox" value="coding" /> Kodlama</label>
+          <label
+            ><input type="checkbox" value="marketing" /> Dijital
+            Pazarlama</label
+          >
+        </fieldset>
+
+        <label for="comments">Ek Yorumlar:</label>
+        <textarea
+          id="comments"
+          name="comments"
+          rows="4"
+          placeholder="Buraya ek notlarınızı yazabilirsiniz..."
+        ></textarea>
+
+        <input id="submit" type="submit" value="Gönder" />
+      </form>
+    </main>
+  </body>
+</html>
