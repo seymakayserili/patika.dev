@@ -1,0 +1,176 @@
+
+    .navbar {
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+    }
+    .navbar-brand img {
+      height: 35px;
+    }
+    .search-box {
+      width: 300px;
+      position: relative;
+    }
+    .search-box input {
+      border-radius: 20px;
+      padding-left: 35px;
+    }
+    .search-box i {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: #777;
+    }
+    .nav-item {
+      text-align: center;
+      font-size: 13px;
+    }
+    .nav-item i {
+      font-size: 20px;
+      display: block;
+      color: #555;
+    }
+    .nav-item.active i {
+      color: #000;
+    }
+    .badge {
+      position: absolute;
+      top: 3px;
+      right: 10px;
+      font-size: 10px;
+      background: red;
+      color: #fff;
+    }
+    .profile-img {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    body {
+      background-color: #f3f2ef;
+      font-family: "Segoe UI", sans-serif;
+    }
+    .container-fluid {
+      margin-top: 25px;
+    }
+
+    /* Sol panel */
+    .left-panel {
+      position: sticky;
+      top: 70px;
+    }
+    .profile-card {
+      background: #fff;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+    .profile-card img.cover {
+      width: 100%;
+      height: 60px;
+      object-fit: cover;
+    }
+    .profile-card img.avatar {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-top: -35px;
+      border: 2px solid #fff;
+    }
+    .profile-card h6 {
+      margin: 5px 0 0;
+      font-weight: 600;
+    }
+    .profile-card p {
+      color: gray;
+      font-size: 13px;
+    }
+
+    /* Orta akış */
+    .feed-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .post-box, .feed-card {
+      background: #fff;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+    .post-box input {
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      padding: 10px 20px;
+      width: 100%;
+    }
+    .post-actions {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+    .post-actions button {
+      background: none;
+      border: none;
+      color: #555;
+      font-weight: 500;
+    }
+    .post-actions i {
+      margin-right: 5px;
+    }
+    .feed-header {
+      display: flex;
+      align-items: center;
+    }
+    .feed-header img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .feed-header h6 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .feed-header small {
+      color: gray;
+    }
+    .feed-content {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .feed-image img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    /* Sağ panel */
+    .right-panel {
+      position: sticky;
+      top: 70px;
+    }
+    .news-card {
+      background: #fff;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      padding: 15px;
+    }
+    .news-card h6 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .news-item {
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .news-item span {
+      display: block;
+      color: gray;
+      font-size: 12px;
+    }
+ 
