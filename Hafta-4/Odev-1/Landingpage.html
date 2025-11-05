@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>TailwindCSS LandingPage</title>
+  </head>
+  <body class="bg-[#F3F4F6]">
+  <div class="max-w-[1200px] mx-auto px-4">
+    <!-- HEADER -->
+    <header>
+      <nav class="bg-white shadow text-[#48515C] p-4 m-4 rounded">
+        <ul class="flex flex-col md:flex-row justify-between items-center gap-4">
+          <li class="text-2xl font-bold">Logo</li>
+          <li class="flex flex-wrap justify-center items-center space-x-6">
+            <a href="#" class="hover:text-[#7C3AEC] transition">Link</a>
+            <a href="#" class="hover:text-[#7C3AEC] transition">Link</a>
+            <a href="#" class="hover:text-[#7C3AEC] transition">Link</a>
+            <button class="bg-[#7C3AEC] text-white hover:bg-[#a486d6] rounded w-24 h-9">
+              Sign Up
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+      <section class="p-4 flex flex-col md:flex-row items-center gap-6">
+        <div class="flex-1 text-center bg-white p-6 rounded shadow">
+          <p class="text-[#7C3AEC] font-medium">Mamba design system</p>
+          <h1 class="text-[#111827] text-4xl font-bold py-5">
+            Build it with<br />Mamba
+          </h1>
+          <p class="text-[#48515C]">
+            <span class="font-medium">Modular and versatile.</span> The ultimate design toolkit
+            for savvy technology startups.
+          </p>
+          <form class="flex flex-col w-full gap-4 mt-6">
+            <input
+              class="w-full border border-gray-300 rounded p-2"
+              placeholder="Your name"
+            />
+            <input
+              class="w-full border border-gray-300 rounded p-2"
+              placeholder="Email address"
+            />
+            <button
+              class="w-full bg-[#7C3AEC] hover:bg-[#a486d6] text-white py-2 px-4 rounded"
+            >
+              Join the waitlist
+            </button>
+          </form>
+        </div>
+
+        <div class="flex-1 flex justify-center">
+          <img
+            class="rounded w-full max-w-[600px]"
+            src="https://picsum.photos/id/88/600/500"
+            alt="TailwindCSS Image"
+          />
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="py-10 text-center">
+        <p class="text-[#7C3AEC] font-medium">HOW IT WORKS</p>
+        <h1 class="text-[#111827] text-3xl md:text-4xl font-bold mb-6">
+          Building with Mamba is simple
+        </h1>
+        <div class="flex flex-col md:flex-row gap-6 p-4">
+          <!-- Card 1 -->
+          <div class="flex-1 bg-white p-6 rounded-xl shadow text-[#48515C] text-left">
+            <span class="bg-[#7C3AEC] text-white w-10 h-10 flex items-center justify-center rounded-full font-semibold mb-4">
+              1
+            </span>
+            <p><span class="font-bold">Nulla.</span> Nostrum, corrupti blanditiis. Illum, architecto?</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="flex-1 bg-white p-6 rounded-xl shadow text-[#48515C] text-left">
+            <span class="bg-[#7C3AEC] text-white w-10 h-10 flex items-center justify-center rounded-full font-semibold mb-4">
+              2
+            </span>
+            <p><span class="font-bold">Accusamus.</span> Tenetur, dolore inventore. Rerum, obcaecati.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="flex-1 bg-white p-6 rounded-xl shadow text-[#48515C] text-left">
+            <span class="bg-[#7C3AEC] text-white w-10 h-10 flex items-center justify-center rounded-full font-semibold mb-4">
+              3
+            </span>
+            <p><span class="font-bold">Fugit.</span> Corporis, ratione dicta. Officia, aperiam.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL -->
+      <section class="p-4 flex flex-col md:flex-row gap-8 items-center">
+        <div class="flex-1 flex justify-center">
+          <img
+            class="max-h-[400px] rounded w-full md:w-auto"
+            src="https://picsum.photos/id/66/600/500"
+            alt="example image"
+          />
+        </div>
+        <div class="flex-1 bg-white rounded p-6">
+          <figure class="text-center text-white p-4">
+            <img
+              src="https://picsum.photos/id/22/600/500"
+              alt="Judith Black"
+              class="mx-auto w-24 h-24 rounded-full object-cover shadow-lg"
+            />
+            <blockquote class="mt-6 text-lg italic text-[#111827]">
+              “ Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              dolore ad maiores explicabo modi voluptatibus rerum fugit atque quos
+              officia aliquam earum tempora quas.”
+            </blockquote>
+            <figcaption class="mt-3">
+              <div class="font-semibold text-[#989EA6] text-lg">Judith Black</div>
+              <div class="text-[#989EA6] text-sm">CEO of Workcation</div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- CREATE WITH US -->
+      <section class="bg-white p-6 rounded m-4 text-center">
+        <h1 class="text-[#111827] text-3xl md:text-4xl font-bold py-4">Create with us</h1>
+        <p class="text-[#48515C] leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua...
+        </p>
+      </section>
+
+      <!-- BUSINESS SECTION -->
+  <section class="p-4 flex flex-col md:flex-row gap-6">
+  <!-- Görsel -->
+  <div class="flex-1">
+    <img
+      class="w-full h-[400px] object-cover rounded"
+      src="https://picsum.photos/id/12/600/400"
+      alt="TailwindCSS Image"
+    />
+  </div>
+
+  <!-- Metin kutusu -->
+  <div class="flex-1 bg-white rounded p-6 flex flex-col justify-center h-[400px]">
+    <button class="bg-[#7C3AEC] text-white hover:bg-[#a486d6] rounded-lg px-4 py-1 mb-2 w-fit">
+      Business
+    </button>
+    <h1 class="text-[#111827] text-3xl md:text-4xl font-bold py-4">
+      Curating a workplace that inspires team movement
+    </h1>
+    <p class="text-[#ADB2B8]">November 30, 2020<br />By Leroy Jenkins</p>
+  </div>
+</section>
+
+
+
+      <!-- FEATURES -->
+      <section class="flex flex-col md:flex-row gap-6 m-4">
+        <div class="flex-1 bg-white p-6 flex items-center justify-center">
+          <p><span class="font-bold">Panel-based blocks.</span> Flexible panels for functional layouts.</p>
+        </div>
+        <div class="flex-1 bg-white p-6 flex items-center justify-center">
+          <p><span class="font-bold">Responsive design.</span> Looks great on every device.</p>
+        </div>
+        <div class="flex-1 bg-white p-6 flex items-center justify-center">
+          <p><span class="font-bold">Premium support.</span> Join 50,000+ happy customers.</p>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+      <section class="bg-white rounded m-4 text-center p-8">
+        <h1 class="text-3xl md:text-4xl font-bold">Our team is here to help you</h1>
+        <p class="p-4 text-[#48515C]">Meet our crew ></p>
+        <img
+          class="w-full rounded"
+          src="https://picsum.photos/id/77/600/200"
+          alt="TailwindCSS Image"
+        />
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <nav class="bg-white shadow text-[#48515C] p-4 m-4 rounded">
+        <ul class="flex flex-col md:flex-row justify-between items-center gap-4">
+          <li class="text-2xl font-bold">Mamba</li>
+          <li class="flex items-center space-x-6">
+            <a href="mailto:seymakayserili@gmail.com" class="hover:text-[#7C3AEC] transition">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="#" class="hover:text-[#7C3AEC] transition">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://github.com/seymakayserili" class="hover:text-[#7C3AEC] transition">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>
