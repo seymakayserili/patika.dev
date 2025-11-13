@@ -12,7 +12,7 @@ HTML/JS/CSS ile kolayca özelleştirilebilir yapı.
 
 ## Canlı Önizleme
 
-Projeyi yerel olarak çalıştırıp tarayıcıda index.html dosyasını açarak test edebilirsiniz.
+Projeyi yerel olarak çalıştırıp tarayıcıda açarak test edebilirsiniz. Lütfen <a target="_blank" href="https://seymakayserili.github.io/patika.dev/Hafta-5/Odev-2/">tıklayınız.</a> 
 
 ## Dosya Yapısı
 
