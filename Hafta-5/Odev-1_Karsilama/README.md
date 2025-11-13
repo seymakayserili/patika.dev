@@ -27,7 +27,7 @@ Tamamen tarayıcı üzerinde çalışır, ekstra bir kurulum gerektirmez.
 
 ## Canlı Önizleme
 
-Projeyi yerel olarak çalıştırıp tarayıcıda açarak test edebilirsiniz, lütfen <a href="https://seymakayserili.github.io/patika.dev/Hafta-5/Odev-1_Karsilama/">tıklayınız.</a>
+Projeyi yerel olarak çalıştırıp tarayıcıda açarak test edebilirsiniz, lütfen <a target="_blank" href="https://seymakayserili.github.io/patika.dev/Hafta-5/Odev-1_Karsilama/">tıklayınız.</a>
 
 ## Dosya Yapısı
 
