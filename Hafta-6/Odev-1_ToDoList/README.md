@@ -43,3 +43,8 @@ Boş görev eklemeye çalışırsanız hata mesajı çıkar.
 .close – Silme butonu (×)
 
 .error / .success – Toast mesajları
+
+## Ekran Görüntüsü
+<div style="display:flex; justify-content:center;">
+  <img src="todolist.png" alt="todolist" />
+</div>
