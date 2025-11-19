@@ -48,3 +48,6 @@ Boş görev eklemeye çalışırsanız hata mesajı çıkar.
 <div style="display:flex; justify-content:center;">
   <img src="todolist.png" alt="todolist" />
 </div>
+
+## Canlı Önizleme
+Projeyi yerel olarak çalıştırıp tarayıcıda açarak test edebilirsiniz, lütfen <a target="_blank" href="https://seymakayserili.github.io/patika.dev/Hafta-6/Odev-1_ToDoList/index.html">tıklayınız.</a>
