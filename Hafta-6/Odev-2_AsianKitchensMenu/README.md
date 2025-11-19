@@ -34,3 +34,6 @@ Asian Kitchen Menu, çeşitli Asya mutfaklarını ve yemeklerini listeleyen basi
 <div style="display:flex; justify-content:center;">
   <img src="ss.png" alt="Menu" />
 </div>
+
+## Canlı Önizleme
+Projeyi yerel olarak çalıştırıp tarayıcıda açarak test edebilirsiniz, lütfen <a target="_blank" href="https://seymakayserili.github.io/patika.dev/Hafta-6/Odev-2_AsianKitchensMenu/index.html">tıklayınız.</a>
