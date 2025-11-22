@@ -1,0 +1,46 @@
+:root {
+  --bg1: #0f1724;
+  --bg2: #2575fc;
+  --button: #ffb703;
+  --button-hover: #e29a00;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+#jokeBox {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  max-width: 520px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+}
+
+button {
+  padding: 12px 22px;
+  border: none;
+  background: var(--button);
+  color: #000;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: var(--button-hover);
+}

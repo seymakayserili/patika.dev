@@ -50,4 +50,5 @@ Boş görev eklemeye çalışırsanız hata mesajı çıkar.
 </div>
 
 ## Canlı Önizleme
+
 Projeyi yerel olarak çalıştırıp tarayıcıda açarak test edebilirsiniz, lütfen <a target="_blank" href="https://seymakayserili.github.io/patika.dev/Hafta-6/Odev-1_ToDoList/index.html">tıklayınız.</a>
