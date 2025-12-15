@@ -3,7 +3,7 @@
 Bu proje, React kullanılarak geliştirilmiş basit bir zar oyunudur.
 Oyunda kullanıcı (Player 1) ve bilgisayar (Player 2) her turda birer zar atar ve sonuç ekranda gösterilir.
 <br><br>
-Canlı Demo : https://profound-panda-0f7e55.netlify.app/
+<a href="https://profound-panda-0f7e55.netlify.app/">Canlı Link </a> 
 <br><br>
 🚀 Özellikler
 
