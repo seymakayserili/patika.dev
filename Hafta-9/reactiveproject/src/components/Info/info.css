@@ -1,0 +1,34 @@
+.info-section {
+  background-color: #e8f1ff;
+  padding: 3rem 0;
+}
+
+.info-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.info-card {
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.info-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #355592;
+}
+
+.info-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

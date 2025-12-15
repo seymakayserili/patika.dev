@@ -1,0 +1,145 @@
+/* our classes start */
+.our-classes-bg {
+  background: linear-gradient(-105deg, rgb(246, 246, 246) 58%, white 45%);
+}
+
+.our-classes {
+  text-align: center;
+  height: max-content;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.our-classes h2 {
+  margin-top: 4rem;
+  color: #355592;
+  font-size: 2.2rem;
+  position: relative;
+  text-align: center;
+}
+
+.our-classes p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #585858;
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+}
+
+.our-classes h2::after {
+  content: "";
+  width: 100px;
+  height: 6px;
+  background-color: #ffc017;
+  position: absolute;
+  border-radius: 20px;
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+    
+
+/* TABS */
+.button-our-classes {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+
+.btn {
+  background-color: #355592;
+  display: flex;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-active {
+  background-color: #f39c12;
+  box-shadow: 0 0 10px rgba(243, 156, 18, 0.5);
+}
+
+.btn-active::after {
+  content: "";
+  position: absolute;
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+  background-color: #f39c12;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 10px;
+}
+
+/* CONTENT AREA */
+.content {
+  padding: 4rem 10rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+
+/* LEFT SIDE (TEXT) */
+.text-section {
+  width: 50%;
+  color: #585858;
+}
+
+.text-section h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.text-section p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #585858;
+}
+
+.p-info {
+  padding-right: 0;
+}
+
+.p-date {
+  line-height: 2rem;
+  font-weight: 700;
+}
+/* İçerik bölümünü sola hizala */
+.text-section,
+.text-section h2,
+.text-section p {
+  text-align: left !important;
+}
+
+
+/* RIGHT SIDE (IMAGE) */
+.image {
+  width: 50%;
+  padding-top: 1rem;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* our classes end */

@@ -1,0 +1,83 @@
+body,
+html {
+  width: 100%;
+  height: auto;
+}
+
+.hero-bg {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/img/hero-man.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+  padding-top: 4rem;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+  text-align: left;
+  z-index: 2;
+}
+
+.hero-btn {
+  background-color: #355592;
+  color: #fff;
+  border: none;
+  padding: 7px 22px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.hero-bg h1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.hero-bg p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-signup,
+.btn-details {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-signup {
+  background-color: #355592;
+  color: #fff;
+}
+
+.btn-details {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-signup:hover,
+.btn-details:hover {
+  background-color: #f39c11;
+  border-color: #f39c11;
+}
+
+.hero-bg,
+.hero-bg * {
+  max-width: none !important;
+}

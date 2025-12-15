@@ -1,0 +1,119 @@
+/* navbar start*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background: transparent;
+ transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+  background-color: #355592 !important;
+  backdrop-filter: saturate(180%) blur(20px);
+  transition: background-color 0.4s ease;
+}
+
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 250px;
+  margin-left: 5rem;
+}
+
+.hamburger-menu {
+  display: none;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #355592;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 4px 8px;
+  border: 1px solid rgb(241, 248, 255, 0.4);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 15%;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #ffc017;
+}
+
+.join-btn {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+  text-transform: uppercase;
+}
+
+.join-btn:hover {
+  background-color: #355592;
+  color: #fff;
+}
+
+/* MOBILE */
+@media screen and (max-width: 576px) {
+  .logo img {
+    margin-left: 1.8rem;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #355592;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+
+  .nav-menu.show {
+    display: flex;
+    transform: translateX(0);
+  }
+
+  .hamburger-menu {
+    display: inline-block;
+  }
+
+  .nav-menu li {
+    text-align: center;
+    margin: 1em 0;
+  }
+
+  .join-btn {
+    margin: 1em auto;
+  }
+}
+/* navbar end */
