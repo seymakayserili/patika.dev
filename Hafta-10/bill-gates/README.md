@@ -1,6 +1,7 @@
 # 💰 Spend Bill Gates' Money
 
-Bill Gates'in 100 milyar dolarını harcayabileceğiniz eğlenceli bir web uygulaması!
+Bill Gates'in 100 milyar dolarını harcayabileceğiniz eğlenceli bir web uygulaması!<br><br>
+<a href="https://694a813003b3eb8583923e81--stellular-paprenjak-7591a1.netlify.app/">Canlı Link</a><br><br>
 
 ## 🎯 Özellikler
 <ul>

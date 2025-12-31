@@ -1,6 +1,7 @@
 # Note App
 
-React + Vite ile hazırlanan bu uygulama, notlarını hızlıca kaydetmeni, renklendirmeni ve filtrelemeni sağlar.
+React + Vite ile hazırlanan bu uygulama, notlarını hızlıca kaydetmeni, renklendirmeni ve filtrelemeni sağlar.<br><br>
+<a href="https://694a81bf4cd24cac5992b79b--elegant-brigadeiros-9a7d72.netlify.app/">Canlı Link</a>
 
 ## Özellikler
 <ul>
