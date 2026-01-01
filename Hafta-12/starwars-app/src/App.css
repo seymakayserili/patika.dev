@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  background: #f9fafb;
+  color: #111827;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+/* ===== STARSHIP GRID ===== */
+
+.starship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* ===== STARSHIP CARD ===== */
+
+.starship-card {
+  display: block;
+  padding: 18px 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  text-decoration: none;
+  color: #111827;
+  transition: 
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.starship-card:hover {
+  transform: translateY(-4px);
+  border-color: #2563eb;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.starship-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.starship-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+.starship-card strong {
+  color: #111827;
+}
