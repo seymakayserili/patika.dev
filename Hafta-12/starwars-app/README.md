@@ -61,49 +61,33 @@ http://localhost:5173
 🧪 Test İçin Örnek Aramalar
 
 Aşağıdaki anahtar kelimelerle arama yapabilirsin:
-<ul>
-<li> Falcon </li>
+Falcon
+Death
+Star
+CR90
+Y-wing
 
-<li> Death</li>
-
-<li> Star</li>
-
-<li> CR90</li>
-
-<li> Y-wing</li>
-</ul>
 
 🧠 Öğrenilen Konular
-<ul>
-<li> Bu proje ile:</li>
 
-<li> React Router ile sayfa yönetimi</li>
+Bu proje ile
+React Router ile sayfa yönetimi
+API entegrasyonu ve hata yakalama
+Controlled input & search mantığı
+Pagination (Load More)
+Component bazlı mimari
+Gerçek dünya API problemleriyle başa çıkma
+konuları pratiğe dökülmüştür.
 
-<li> API entegrasyonu ve hata yakalama</li>
-
-<li> Controlled input & search mantığı</li>
-
-<li> Pagination (Load More)</li>
-
-<li> Component bazlı mimari</li>
-
-<li> Gerçek dünya API problemleriyle başa çıkma</li>
-
-<li> konuları pratiğe dökülmüştür.</li>
-</ul>
 
 🔮 Geliştirilebilir Özellikler
-<ul>
-<li> ⏳ Loading skeleton<(li)>
 
-<li> ⌨️ Debounce search<(li)>
+⏳ Loading skeleton
+⌨️ Debounce search
+♾️ Infinite scroll
+🎨 Daha ileri UI/UX tasarımı
+🧪 Testler (React Testing Library)
 
-<li> ♾️ Infinite scroll<(li)>
-
-<li> 🎨 Daha ileri UI/UX tasarımı<(li)>
-
-<li> 🧪 Testler (React Testing Library)<(li)>
-</ul>
 
 📄 Lisans
 
