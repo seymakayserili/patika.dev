@@ -42,22 +42,21 @@ src/
  ├─ App.css
  └─ main.jsx
 
-<ul>
-<li> App.jsx → State ve uygulama mantığı</li>
+ App.jsx → State ve uygulama mantığı
 
-<li> components/ → Tek sorumluluk prensibine uygun React bileşenleri</li>
+ components/ → Tek sorumluluk prensibine uygun React bileşenleri
 
-<li> App.css → TodoMVC tasarımı (değiştirilmeden kullanılmıştır)</li>
-</ul>
+App.css → TodoMVC tasarımı (değiştirilmeden kullanılmıştır)
+
 
 💾 LocalStorage Kullanımı
-<ul>
-<li> Uygulama, todoları tarayıcı LocalStorage alanında saklar.</li>
 
-<li> Sayfa yenilendiğinde veriler korunur</li>
+Uygulama, todoları tarayıcı LocalStorage alanında saklar.
 
-<li> useEffect ile state değişimleri otomatik senkronize edilir</li>
-</ul>
+Sayfa yenilendiğinde veriler korunur.
+
+useEffect ile state değişimleri otomatik senkronize edilir.
+
 
 🛠️ Kurulum & Çalıştırma
 npm install
@@ -65,18 +64,17 @@ npm run dev
 http://localhost:5173
 
 🎯 Amaç
-<ul>
-<li> Bu proje;</li>
 
-<li> React’te state yönetimi</li>
+Bu proje;
 
-<li> Component mimarisi</li>
+React’te state yönetimi
 
-<li> Controlled input</li>
+Component mimarisi
 
-<li> Side effect (useEffect)</li>
+Controlled input
 
-<li> LocalStorage entegrasyonu</li>
+Side effect (useEffect)
 
-<li> gibi temel konuları öğrenmek ve pekiştirmek amacıyla geliştirilmiştir.</li>
-</ul>
+LocalStorage entegrasyonu
+
+gibi temel konuları öğrenmek ve pekiştirmek amacıyla geliştirilmiştir.
